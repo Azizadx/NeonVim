@@ -1,6 +1,6 @@
 # My neovim dotfiles config
 
-![Perview]()
+![Perview](./perview.png)
 In process of leaving for VS code for good this is my neovim dotfiles setup
 
 ## currently supportting
