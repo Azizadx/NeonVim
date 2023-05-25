@@ -31,6 +31,10 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	-- Languages
+	--
+	-- zig
+	use("ziglang/zig.vim")
+
 	-- rust
 	use("simrat39/rust-tools.nvim")
 	use("mfussenegger/nvim-dap")
@@ -98,7 +102,8 @@ return packer.startup(function(use)
 	--auto closing
 	use("windwp/nvim-autopairs")
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
-
+	-- Vimwiki
+	use("vimwiki/vimwiki")
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
