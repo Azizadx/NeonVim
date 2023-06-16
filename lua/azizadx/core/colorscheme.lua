@@ -1,9 +1,8 @@
---my color scheme 
-vim.cmd("colorscheme nightfly")
+--my color scheme
+-- vim.cmd("colorscheme ")
 -- Lua initialization file
-local status,_ = pcall(vim.cmd, "colorscheme nightfly")
-if not status then 
-  print("Colorscheme not found!")
-  return
+local status, _ = pcall(vim.cmd, "colorscheme midnight")
+if not status then
+	print("Colorscheme not found!")
+	return
 end
-
