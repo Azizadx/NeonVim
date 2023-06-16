@@ -29,7 +29,8 @@ return packer.startup(function(use)
 
 	-- packer so that it can manage itself
 	use("wbthomason/packer.nvim")
-
+	-- mightnigth theme
+	use("dasupradyumna/midnight.nvim")
 	-- Languages
 	--
 	-- zig
