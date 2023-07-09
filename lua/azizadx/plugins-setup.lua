@@ -31,6 +31,8 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	-- mightnigth theme
 	use("dasupradyumna/midnight.nvim")
+	-- draula theme
+	use("Mofiqul/dracula.nvim")
 	-- Languages
 	--
 	-- zig
